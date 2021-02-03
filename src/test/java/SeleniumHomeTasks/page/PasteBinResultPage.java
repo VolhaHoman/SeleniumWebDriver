@@ -19,7 +19,7 @@ public class PasteBinResultPage {
     private final WebDriver driver;
 
     private String getTextFrom(By by) {
-        WebElement title = new WebDriverWait(driver, 5000L)
+        WebElement title = new WebDriverWait(driver, 20)
                 .until(webDriver ->
                         webDriver.findElement(by));
 
