@@ -1,0 +1,23 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="API Test" configfailurepolicy="continue">
+    <test name="ICanWin">
+        <classes>
+            <class name="SeleniumHomeTasks.tests.ICanWin" />
+        </classes>
+    </test>
+    <test name="BringItOn">
+        <classes>
+            <class name="SeleniumHomeTasks.tests.BringItOn" />
+        </classes>
+    </test>
+    <test name="HurtMePlenty">
+        <classes>
+            <class name="SeleniumHomeTasks.tests.HurtMePlenty" />
+        </classes>
+    </test>
+    <test name="HardCore">
+        <classes>
+            <class name="SeleniumHomeTasks.tests.HardCore" />
+        </classes>
+    </test>
+</suite>
